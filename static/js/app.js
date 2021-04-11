@@ -6,7 +6,7 @@ function unpack(rows,index) {
   });
 }
 
-d3.json(data).then(function(samples){
+d3.json(sampleData).then(function(samples){
   var data = samples.samples[0];
     console.log(data);
   
