@@ -1,4 +1,4 @@
-var sampleData = "static/js/data/samples.json";
+var sampleData = "data/samples.json";
 
 function unpack(rows,index) {
   return rows.map(function(row){
